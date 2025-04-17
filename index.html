@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body class="h-screen flex flex-col items-center justify-center">
+    <h1 class="text-3xl p-2">Get YouTube Dislikes</h1>
+    <form>
+      <label for="link" class="input">
+        <span class="label">Link</span>
+        <input type="text" id="link" placeholder="Enter a link" />
+      </label>
+      <div class="flex justify-center p-2">
+        <input type="submit" value="Submit" class="btn" />
+      </div>
+      <p id="result"></p>
+    </form>
+    <footer class="p-2 text-center">
+      <p>
+        Data from
+        <a
+          href="https://returnyoutubedislike.com"
+          class="underline hover:no-underline"
+          >returnyoutubedislike.com
+        </a>
+      </p>
+      <p>
+        Designed and Developed with ❤️ in 🇧🇩 by
+        <a
+          href="https://fluentmoheshwar.pages.dev"
+          class="underline hover:no-underline"
+          >Moheshwar Amarnath Biswas
+        </a>
+      </p>
+      <p>
+        Inquilab Zindabad! ✊
+      </p>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
